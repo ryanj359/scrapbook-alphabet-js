@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Bree+Serif&family=Cinzel:wght@400..900&family=DM+Serif+Display:ital@0;1&family=Gravitas+One&family=Nixie+One&family=Oranienbaum&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Slabo+27px&family=Solway:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+    <main>
+      <h1> <a href="index.html" class="h1"> Scrapbook Alphabet </a></h1>
+
+      <h2 class="h2"> Text Box: </h2>
+      
+      <div id="container">
+        <div>
+          <button onclick="location.href='serifTextBox.html'" class="button" style="color: red;"> Serif </button>
+          <br>
+          <button onclick="location.href='sansSerifTextBox.html'" class="button"> Sans Serif </button>
+          <br>
+          <button onclick="location.href='oldTimeyTextBox.html'" class="button"> Old Timey </button>
+          <br>
+          <button onclick="location.href='futuristicTextBox.html'" class="button"> Futuristic </button>
+          <br>
+          <button onclick="location.href='funkyTextBox.html'" class="button"> Funky </button>
+        </div>
+        
+        <div>
+          <button onclick="location.href='serifTextBoxFullType.html'" class="button"> Size, Color, & Type Face </button>
+          <br>
+          <button onclick="location.href='serifTextBoxTypeStyle.html'" class="button"> Type Face & Color </button>
+          <br>
+          <button onclick="location.href='serifTextBoxTypeSize.html'" class="button" style="color: red;"> Type Face & Size </button>
+          <br>
+          <button onclick="location.href='index.html'" class="button"> Home </button>
+        </div>
+        <div> 
+          <button id="bttn" class="button">Randomize</button>
+          <br>
+          <button onclick="location.href='serifTextBoxTypeSize.html'" class="button"> Reset </button>
+        </div>
+      </div>
+
+      <br>
+      <br>
+      <br>
+      
+      <input type="text" id="inputText" placeholder="Type something..." class="textBox"/>
+      <div id="outputText"></div>
+      
+    </main>
+    <script src="serifTextBoxTypeSizeSketch.js"></script>
+  </body>
+</html>
