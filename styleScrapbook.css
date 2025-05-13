@@ -1,0 +1,59 @@
+#imageUploader {
+  margin: 20px;
+}
+
+.scrapbook-container {
+  background-image: url('img/AdobeStock_530734458.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 70%;
+  height: 80vh;
+  margin: auto;
+  overflow: hidden;
+}
+
+.image-frame {
+  position: absolute;
+  border: 3px solid #ccc;
+  cursor: move;
+  display: inline-block;
+  background: transparent;
+  padding: 0;
+}
+
+
+.image-frame img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  pointer-events: none;
+}
+
+.resize-handle {
+  width: 15px;
+  height: 15px;
+  background: transparent;
+  position: absolute;
+  right: -8px;
+  bottom: -8px;
+  cursor: se-resize;
+  z-index: 10;
+}
+
+.delete-btn {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  z-index: 20;
+}

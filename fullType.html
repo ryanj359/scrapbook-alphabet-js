@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+    <main>
+      <h1> <a href="index.html" class="h1"> Scrapbook Alphabet </a></h1>
+
+      <h2 class="h2"> Customizations: </h2>
+      
+      <div id="container">
+        <div>
+          <button onclick="location.href='fullType.html'" class="button" style="background-color: rgb(176, 212, 182);"> Size, Color, & Type Face </button>
+          <br>
+          <button onclick="location.href='typeStyle.html'" class="button"> Type Face & Color </button>
+          <br>
+          <button onclick="location.href='typeSize.html'" class="button"> Type Face & Size </button>
+          <br>
+          <button onclick="location.href='index.html'" class="button"> Home </button>
+        </div>
+        <div> 
+          <button onclick="randomizeText()" class="button">Randomize</button>
+          <br>
+          <button onclick="location.href='fullType.html'" class="button"> Reset </button>
+        </div>
+      </div>
+      
+      <p id="letters" class="alphabet"> 
+        Aa Bb Cc Dd  
+        Ee Ff Gg Hh 
+        Ii Jj Kk Ll 
+        Mm Nn Oo Pp 
+        Qq Rr Ss Tt  
+        Uu Vv Ww Xx 
+        Yy Zz <br> <br>
+        1 2 3 4 5 6 7 8 9 0 </p>
+      
+    </main>
+    <script src="sketchFullType.js"></script>
+  </body>
+</html>

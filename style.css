@@ -1,0 +1,172 @@
+body {
+  background-image: url(img/scrabookBckgrnd.png);
+  background-repeat: repeat-y;
+  background-size: 100% auto;
+  background-position: top center;
+  margin: 0;
+  text-align: center;
+  padding-top: 0.5%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.h1 {
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80pt;
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+  background-color: rgb(215, 239, 245);
+  border-radius: 20%;
+  border-style: dashed;
+}
+
+.h1Home {
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80pt;
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+  background-color: rgb(215, 239, 245);
+  border-radius: 20%;
+  border-style: dashed;
+}
+
+.h2 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60pt;
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+  background-color: rgb(231, 197, 235);
+  border-radius: 20%;
+  border-style: dotted;
+  border-color: black;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.buttonHome {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30pt;
+  text-decoration: none;
+  color: black;
+  padding-bottom: -20pt;
+  border: none;
+  background-color: rgb(247, 234, 213);
+  border-radius: 20%;
+  border-style: dotted;
+  border-color: black;
+}
+
+.buttonHome:hover {
+  border-style: dotted;
+  background-color: rgb(176, 212, 182);
+}
+
+.button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23pt;
+  text-decoration: none;
+  color: black;
+  background-color: rgb(247, 234, 213);
+  border-radius: 30%;
+  border-style: dotted;
+  border-color: black;
+  margin: 10px 2%;
+  white-space: nowrap;
+  padding: 5%;
+}
+
+.button:hover {
+  border-style: dotted;
+  background-color: rgb(176, 212, 182);
+}
+
+.buttonAlphabet {
+  font-size: 100pt;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: .5%;
+  text-decoration: none;
+  color: black;
+}
+
+.alphabet {
+  font-size: 100pt;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: .5%;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+#output {
+  display: inline-block;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.textBox {
+  border: 0cap;
+  background-color: white;
+  color: black;
+  font-size: 15pt;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-top: .5%;
+}
+
+.scrapbook-button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15pt;
+  text-decoration: none;
+  color: black;
+  background-color: rgb(232, 188, 203);
+  border-radius: 30%;
+  border-style: dotted;
+  border-color: black;
+  margin: 10px 2%;
+  white-space: nowrap;
+  padding: .5%;
+}
+
+.scrapbook-button:hover {
+  border-style: dotted;
+  background-color: rgb(176, 212, 182);
+}
+
+.file-button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15pt;
+  text-decoration: none;
+  color: black;
+  background-color: rgb(232, 188, 203);
+  border-radius: 30%;
+  border-style: dotted;
+  border-color: black;
+  margin: 10px 2%;
+  white-space: nowrap;
+  padding: .5%;
+}
+
+.file-button:hover {
+  border-style: dotted;
+  background-color: rgb(176, 212, 182);
+}

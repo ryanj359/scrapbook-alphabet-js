@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Jura:wght@300..700&family=Offside&family=Orbitron:wght@400..900&family=Revalia&family=Stalinist+One&family=Syncopate:wght@400;700&family=Text+Me+One&family=Turret+Road:wght@200;300;400;500;700;800&family=Zen+Dots&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styleScrapbook.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+    <main>
+      <h1> <a href="index.html" class="h1"> Scrapbook Alphabet </a></h1>
+
+      <h2 class="h2"> Scrapbook: </h2>
+      
+      <div id="container">
+        <div>
+          <button onclick="location.href='customizations.html'" class="button"> Customizations </button>
+          <br>
+          <button onclick="location.href='scrapbook.html'" class="button" style="background-color: rgb(176, 212, 182);"> Scrapbook</button>
+        </div>
+        
+        <div>
+          <button onclick="location.href='serifScrapbook.html'" class="button"> Serif </button>
+          <br>
+          <button onclick="location.href='sansSerifScrapbook.html'" class="button"> Sans Serif </button>
+          <br>
+          <button onclick="location.href='oldTimeyScrapbook.html'" class="button"> Old Timey </button>
+          <br>
+          <button onclick="location.href='futuristicScrapbook.html'" class="button" style="background-color: rgb(176, 212, 182);"> Futuristic </button>
+          <br>
+          <button onclick="location.href='funkyScrapbook.html'" class="button"> Funky </button>
+        </div>
+        
+        <div>
+          <button onclick="location.href='futuristicScrapbookFullType.html'" class="button"> Size, Color, & Type Face </button>
+          <br>
+          <button onclick="location.href='futuristicScrapbookTypeStyle.html'" class="button"> Type Face & Color </button>
+          <br>
+          <button onclick="location.href='futuristicScrapbookTypeSize.html'" class="button" style="background-color: rgb(176, 212, 182);"> Type Face & Size </button>
+          <br>
+          <button onclick="location.href='index.html'" class="button"> Home </button>
+        </div>
+        <div> 
+          <button id="bttn" class="button">Randomize</button>
+          <br>
+          <button onclick="location.href='futuristicScrapbookTypeSize.html'" class="button"> Reset </button>
+        </div>
+      </div>
+
+      <br>
+      <br>
+      <br>
+      
+      <input type="text" id="inputText" placeholder="Type something..." class="textBox"/>
+      <div id="outputText"></div>
+
+      <br>
+
+      <button id="addToScrapbookBtn" class="scrapbook-button">Add to Scrapbook</button>
+
+      <br>
+
+      <button id="addToScrapbookBtn" class="scrapbook-button">Add to Scrapbook</button>
+
+      <br>
+
+      <label for="imageUploader" class="file-button">Upload Image</label>
+      <input type="file" id="imageUploader" accept="image/*" multiple style="display: none;">
+  
+      <div id="scrapbook" class="scrapbook-container">
+      </div>
+      
+    </main>
+    <script src="futuristicScrapbookTypeSizeSketch.js"></script>
+    <script src="futuristicTextBoxTypeSizeSketch.js"></script>
+  </body>
+</html>
